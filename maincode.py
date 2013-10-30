@@ -11,12 +11,12 @@ class Error( Exception ): pass
 # First thing to do is open the text (be sure to change the filepath!)
 ############################################################################
 
-filepath = "/Users/luminoso/brown_corpus/"
-savePathRoot = "/Users/luminoso/"
+filepath = "/Users/filepath/brown_corpus/"
+savePathRoot = "/Users/filepath/"
 
-if filepath == "/Users/luminoso/brown_corpus/":
+if filepath == "/Users/filepath/brown_corpus/":
     raise Error("Filepath needs to be changed.")
-if filepath == "/Users/luminoso/":
+if filepath == "/Users/filepath/":
     raise Error("Filepath for output files needs to be changed.")
 if filepath[-1:] != "/":
     filepath = filepath + "/"
