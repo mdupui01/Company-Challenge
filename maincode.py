@@ -240,8 +240,6 @@ def singular(word):
     
     return singularForm
 
-#filteredWordsPlurals = filteredWords1 + filteredWords2 + filteredWords3 + filteredWords4 + filteredWords5 + filteredWords6 + filteredWords7 + filteredWords8 + filteredWords9 + filteredWords10
-
 filteredWordsPlurals = [singular(word) for word in list_plural]
 
 plurals = Counter(filteredWordsPlurals)
